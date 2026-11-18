@@ -2,13 +2,16 @@
 
 > **Transforming Qualitative Agent Skills into Formal Mathematical Invariants for Gemini Flash.**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Research Dossier](https://img.shields.io/badge/Theoretical-Research_Dossier-purple.svg)](RESEARCH.md)
+
 ---
 
 ## The Cognitive Gap: Why Claude Skills Fail on Gemini
 
 Anthropic's **Claude** and Google DeepMind's **Gemini** possess fundamentally different cognitive priors:
 
-* **Claude** was trained with strong literary, conversational, and aesthetic reinforcement. When Claude reads human workshop metaphors (*"make lines bow slightly with gentle organic wobble"*), it interprets them as stylistic constraints and naturally produces nuanced, tasteful outputs.
+* **Claude** was trained with strong literary, conversational, and aesthetic reinforcement. When Claude reads human workshop metaphors (*"make lines bow slightly with gentle organic movement"*), it interprets them as stylistic constraints and naturally produces nuanced, tasteful outputs.
 * **Gemini Flash**, by contrast, is a high-throughput Mixture-of-Experts (MoE) engine optimized for formal logic, mathematical proofs, software engineering benchmarks, and strict safety compliance. 
 
 When Gemini encounters qualitative adjectives, its attention heads compute diffuse weights and fall back to the **statistical mean of GitHub** ($0\sigma$ to $1\sigma$ on the token probability curve):
@@ -16,6 +19,8 @@ When Gemini encounters qualitative adjectives, its attention heads compute diffu
 - Default beige/cream paper (`#fdfcf8`) and dark charcoal ink (`#1c1c1c`)
 - Symmetrical CSS easing (`0.3s ease`) or linear time progressions
 - Token-burning testing loops where the model wastes thousands of tokens writing assertions rather than elevating artistic craft.
+
+For deep theoretical foundations and citations of academic literature (arXiv:2602.12430, arXiv:2608.11888, arXiv:2605.17734, arXiv:2404.11018), read the [**Full Research Dossier**](RESEARCH.md).
 
 ```
                        THE TOKEN PROBABILITY BELL CURVE
@@ -53,7 +58,7 @@ Replaces subjective prose with concrete parameter bounds, kinematic equations, a
 
 | Qualitative Claude Phrase | Translated Gemini Mathematical Invariant |
 | :--- | :--- |
-| *"make it feel organic"* | Stochastic perturbation via Fractional Brownian Motion (octaves=3, amplitude=[0.03L, 0.08L]) |
+| *"make it feel organic"* | Stochastic perturbation via Fractional Brownian Motion (amplitude=[0.03L, 0.08L]) |
 | *"edges bow slightly"* | Bézier secant offset invariant: quadratic control point offset $d_{\perp} \in [0.06L, 0.12L]$ |
 | *"feet that slide"* | Kinematic ground-lock: `ASSERT: Foot_Delta_X == 0 on Stance_Phase` |
 | *"balanced layout"* | Golden-Ratio spatial tensor: centroid $X_c \in [0.28W, 0.38W]$; center quadrant $[0.40W, 0.60W]$ is banned |
@@ -99,9 +104,8 @@ claude-to-gemini-skill-converter/
 ├── converter.py          # The core skill compiler
 ├── auditor.py            # Brain 2 zero-token deterministic AST checker
 ├── entropy.py            # Standalone procedural seed generator (4 physical regimes)
+├── RESEARCH.md           # Deep theoretical foundations & literature review
 ├── examples/             # Before/after conversion samples
-│   ├── input_claude.md
-│   └── output_gemini.md
 ├── LICENSE               # MIT License
 └── README.md
 ```
