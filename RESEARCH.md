@@ -10,9 +10,9 @@ In modern AI agent development, skill instruction sets (typically packaged as `S
 
 Empirical reality proves otherwise:
 * Instructions written for **Anthropic's Claude** models rely heavily on natural language metaphors, qualitative aesthetic advice, and literary restraint.
-* When these exact instruction sets are ingested by **Google DeepMind's Gemini** models (specifically high-speed architectures like Gemini Flash), the model exhibits **Statistical Mean Collapse**: generating repetitive boilerplate, dead-center compositions, uncalibrated color palettes, and burning disproportionate tokens on procedural self-testing.
+* When these exact instruction sets are ingested by **Antigravity** agentic runtimes, the agent exhibits **Statistical Mean Collapse**: generating repetitive boilerplate, dead-center compositions, uncalibrated color palettes, and burning disproportionate tokens on procedural self-testing.
 
-This dossier documents the academic literature, cognitive divergence analyses, and mathematical mechanisms that form the foundation of the **Claude-to-Gemini Skill Converter (C2G)**.
+This dossier documents the academic literature, cognitive divergence analyses, and mathematical mechanisms that form the foundation of the **Claude-to-Antigravity Skill Converter (C2A)**.
 
 ---
 
@@ -21,7 +21,7 @@ This dossier documents the academic literature, cognitive divergence analyses, a
 ```
                      MODEL ARCHITECTURE & TRAINING PRIORS
                      
-            CLAUDE                                   GEMINI FLASH
+            CLAUDE                                   ANTIGRAVITY
    Constitutional RLAIF                     MoE Architecture + DeepMind Math Priors
               │                                                │
    High Literary Nuance,                    Formal Logic, Code Benchmarks (SWE-bench),
@@ -33,8 +33,8 @@ This dossier documents the academic literature, cognitive divergence analyses, a
 ```
 
 ### The Institutional Loss Landscape
-* **The Anthropic Prior**: Trained via Constitutional AI with an emphasis on conversational texture, literary prose, and persona nuance. Claude treats subjective qualitative guidelines (*"lines should feel hand-drawn with a thoughtful, relaxed pace"*) as actionable artistic constraints.
-* **The Google DeepMind Prior**: Conditioned on massive datasets encompassing formal mathematics, scientific papers, code repositories, and multimodal grounding, coupled with strict safety alignment designed to minimize hallucination risks. Under ambiguous qualitative prompts, Gemini's Mixture-of-Experts (MoE) router selects the highest-likelihood, lowest-risk token clusters—producing the mathematical average of web tutorials.
+* **The Anthropic Prior**: Trained via Constitutional AI with an emphasis on conversational texture, literary prose, and persona nuance. Claude treats subjective qualitative guidelines as actionable artistic constraints.
+* **The Antigravity Prior**: Conditioned on massive datasets encompassing formal mathematics, scientific papers, code repositories, and multimodal grounding, coupled with strict safety alignment designed to minimize hallucination risks. Under ambiguous qualitative prompts, the MoE router selects the highest-likelihood, lowest-risk token clusters—producing the mathematical average of web tutorials.
 
 ---
 

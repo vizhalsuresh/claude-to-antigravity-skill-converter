@@ -1,8 +1,8 @@
 """
-converter.py — Claude-to-Gemini Skill Compiler
+converter.py — Claude-to-Antigravity Skill Compiler
 
 Translates qualitative prompt skills into formal mathematical specifications
-and constraint assertions for Google Gemini models.
+and constraint assertions for Antigravity agentic AI runtimes.
 """
 
 import os
@@ -30,7 +30,7 @@ GENERAL_TRANSFORMS: List[Tuple[str, str]] = [
 ]
 
 DIRECTIVE_HEADER = """
-## [COGNITIVE DIRECTIVE: GEMINI DIVERGENCE ENGINE]
+## [COGNITIVE DIRECTIVE: ANTIGRAVITY DIVERGENCE ENGINE]
 
 ### 1. MANDATORY GATE 0: THE CLICHÉ PURGE (NEGATIVE REINFORCEMENT)
 Before generating code or design layouts, the model must output the 3 highest-probability boilerplate solutions into a banned buffer:
@@ -56,21 +56,23 @@ Before generating code or design layouts, the model must output the 3 highest-pr
 """
 
 def convert_skill_text(raw_text: str) -> str:
-    """Transforms qualitative skill text into formal Gemini-native specifications."""
+    """Transforms qualitative skill text into formal Antigravity-native specifications."""
     text = raw_text
     
     for pattern, replacement in GENERAL_TRANSFORMS:
         text = re.sub(pattern, replacement, text, flags=re.IGNORECASE)
         
-    text = re.sub(r"\bClaude\b", "Gemini", text)
+    text = re.sub(r"\bClaude\b", "Antigravity", text)
+    text = re.sub(r"\bGemini\b", "Antigravity", text)
     
     frontmatter_match = re.match(r"^(---\s*\n.*?\n---\s*\n)", text, re.DOTALL)
     if frontmatter_match:
         fm = frontmatter_match.group(1)
         body = text[len(fm):]
+        # Preserve valid YAML formatting using block scalar
         fm = re.sub(
             r"description:\s*(['\"].*?['\"]|.*?)\n",
-            r"description: [GEMINI-NATIVE CONVERTED] \1 (Reinforced with mathematical invariants)\n",
+            r"description: >-\n  \1 (Reinforced with Antigravity mathematical invariants)\n",
             fm
         )
         return fm + "\n" + DIRECTIVE_HEADER.strip() + "\n\n" + body.lstrip()

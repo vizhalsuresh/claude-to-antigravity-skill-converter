@@ -1,24 +1,24 @@
-# Claude-to-Gemini Skill Converter (C2G)
+# Claude-to-Antigravity Skill Converter (C2A)
 
-> **Transforming Qualitative Agent Skills into Formal Mathematical Invariants for Gemini Flash.**
+> **Transforming Qualitative Agent Skills into Formal Mathematical Invariants for Antigravity Agentic AI Runtimes.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Research Dossier](https://img.shields.io/badge/Theoretical-Research_Dossier-purple.svg)](RESEARCH.md)
 
 ---
 
-## The Cognitive Gap: Why Claude Skills Fail on Gemini
+## The Cognitive Gap: Why Qualitative Claude Skills Fail on Antigravity
 
-Anthropic's **Claude** and Google DeepMind's **Gemini** possess fundamentally different cognitive priors:
+Anthropic's **Claude** and the **Antigravity** agentic runtime possess fundamentally different cognitive priors:
 
 * **Claude** was trained with strong literary, conversational, and aesthetic reinforcement. When Claude reads human workshop metaphors (*"make lines bow slightly with gentle organic movement"*), it interprets them as stylistic constraints and naturally produces nuanced, tasteful outputs.
-* **Gemini Flash**, by contrast, is a high-throughput Mixture-of-Experts (MoE) engine optimized for formal logic, mathematical proofs, software engineering benchmarks, and strict safety compliance. 
+* **Antigravity**, by contrast, operates on a high-throughput, code-disciplined engine optimized for formal logic, mathematical proofs, software engineering execution, and strict architectural safety compliance. 
 
-When Gemini encounters qualitative adjectives, its attention heads compute diffuse weights and fall back to the **statistical mean of GitHub** ($0\sigma$ to $1\sigma$ on the token probability curve):
+When Antigravity encounters qualitative adjectives without mathematical boundaries, its attention heads compute diffuse weights and fall back to the **statistical mean of GitHub** ($0\sigma$ to $1\sigma$ on the token probability curve):
 - Standard centered layouts (`x: 50%, y: 50%`)
 - Default beige/cream paper (`#fdfcf8`) and dark charcoal ink (`#1c1c1c`)
 - Symmetrical CSS easing (`0.3s ease`) or linear time progressions
-- Token-burning testing loops where the model wastes thousands of tokens writing assertions rather than elevating artistic craft.
+- Token-burning testing loops where the agent wastes thousands of tokens writing assertions rather than elevating artistic craft.
 
 For deep theoretical foundations and citations of academic literature (arXiv:2602.12430, arXiv:2608.11888, arXiv:2605.17734, arXiv:2404.11018), read the [**Full Research Dossier**](RESEARCH.md).
 
@@ -47,7 +47,7 @@ THE GIBBERISH TAIL                       THE GOLDEN SWEET SPOT
 └──────────────────┘                     └──────────────────────┘
 ```
 
-**C2G** bridges this gap by acting as a **Semantic Lexical Compiler**, converting qualitative Claude `SKILL.md` files into formal mathematical specifications that Gemini natively commands.
+**C2A** bridges this gap by acting as a **Semantic Lexical Compiler**, converting qualitative Claude `SKILL.md` files into formal mathematical specifications and deterministic invariants that Antigravity natively commands.
 
 ---
 
@@ -76,13 +76,13 @@ Forces Gemini to output its 3 highest-probability boilerplate solutions into a `
 ## Installation & Quickstart
 
 ```bash
-git clone https://github.com/vizhalsuresh/claude-to-gemini-skill-converter.git
-cd claude-to-gemini-skill-converter
+git clone https://github.com/vizhalsuresh/claude-to-antigravity-skill-converter.git
+cd claude-to-antigravity-skill-converter
 ```
 
 ### 1. Convert a Claude Skill
 ```bash
-python3 converter.py path/to/claude_skill/SKILL.md -o path/to/gemini_skill/SKILL.md
+python3 converter.py path/to/claude_skill/SKILL.md -o path/to/antigravity_skill/SKILL.md
 ```
 
 ### 2. Run the Zero-Token Deterministic Auditor
