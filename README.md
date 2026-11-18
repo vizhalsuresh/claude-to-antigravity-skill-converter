@@ -97,16 +97,29 @@ python3 entropy.py --context "astrophysics simulation scene"
 
 ---
 
+## Working Examples
+
+Inspect the `examples/` directory for real-world before/after transformations:
+
+* **[Input Qualitative Skill (`examples/before_claude_skill/SKILL.md`)](examples/before_claude_skill/SKILL.md)**: Original prompt utilizing qualitative guidance (*smooth and organic, slight wobble, balanced composition*).
+* **[Converted Invariant Skill (`examples/after_antigravity_skill/SKILL.md`)](examples/after_antigravity_skill/SKILL.md)**: Converted skill featuring the Cliché Purge Buffer, mathematical constraints (Bézier secant bounds, Fractional Brownian Motion, Golden Ratio tensors), and the Two-Brain protocol.
+* **[Conductor Meta-Skill Template (`examples/antigravity_conductor_skill/SKILL.md`)](examples/antigravity_conductor_skill/SKILL.md)**: Standalone runtime enforcer skill to govern the 4-gate execution pipeline across any creative task.
+
+---
+
 ## Repository Structure
 
 ```text
-claude-to-gemini-skill-converter/
-├── converter.py          # The core skill compiler
-├── auditor.py            # Brain 2 zero-token deterministic AST checker
-├── entropy.py            # Standalone procedural seed generator (4 physical regimes)
-├── RESEARCH.md           # Deep theoretical foundations & literature review
-├── examples/             # Before/after conversion samples
-├── LICENSE               # MIT License
+claude-to-antigravity-skill-converter/
+├── converter.py                     # The core skill compiler
+├── auditor.py                       # Brain 2 zero-token deterministic AST checker
+├── entropy.py                       # Standalone procedural seed generator (4 physical regimes)
+├── RESEARCH.md                      # Deep theoretical foundations & literature review
+├── examples/                        # Before/after conversion samples & conductor template
+│   ├── before_claude_skill/         # Qualitative Claude skill
+│   ├── after_antigravity_skill/     # Converted mathematical Antigravity skill
+│   └── antigravity_conductor_skill/ # Runtime enforcer meta-skill template
+├── LICENSE                          # MIT License
 └── README.md
 ```
 
